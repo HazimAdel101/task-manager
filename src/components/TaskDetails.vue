@@ -11,6 +11,6 @@
 <script setup>
 import { defineProps } from 'vue';
 const props = defineProps({
-    task: Array
+    task: Object
 })
 </script>
