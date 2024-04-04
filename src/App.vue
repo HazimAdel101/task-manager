@@ -57,5 +57,3 @@ taskStore.getTasks();
 
 const filter = ref('all');
 </script>
-
-<style scoped></style>
