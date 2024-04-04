@@ -1,0 +1,19 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "title": "Doctors Appointment 1",
+            "isFav": true
+        },
+        {
+            "id": 2,
+            "title": "Doctors Appointment 2",
+            "isFav": true
+        },
+        {
+            "id": 3,
+            "title": "Doctors Appointment 3",
+            "isFav": true
+        }
+    ]
+}

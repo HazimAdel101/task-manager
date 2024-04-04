@@ -90,7 +90,6 @@ form {
 form button {
   background: #ffd859;
   padding: 10px;
-  font-family: 'Poppins';
   border-radius: 6px;
   color: #555;
   font-size: 1em;
@@ -98,4 +97,15 @@ form button {
 
 .task i.active {
   color: #ff005d;
+}
+
+
+.loading {
+  max-width: 640px;
+  border: 1px solid #ffd859;
+  background: #ffe9a0;
+  color: #3a3a3a;
+  padding: 5px 0;
+  text-align: center;
+  margin: 30px auto;
 }

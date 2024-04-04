@@ -21,6 +21,12 @@
       </button>
     </nav>
 
+    <!-- loading -->
+
+    <div class="loading" v-if="taskStore.loading">
+      Loading Tasks...
+    </div>
+
     <!-- Task List -->
     <div class="task-list" v-if="filter === 'all'">
       <p>You have {{ taskStore.totalCount }} Tasks to do</p>
@@ -45,8 +51,9 @@ import TaskDetails from '@/components/TaskDetails.vue';
 import TaskForm from '@/components/TaskForm.vue';
 import { ref } from 'vue';
 
-
 const taskStore = useTasks();
+
+taskStore.getTasks();
 
 const filter = ref('all');
 </script>
