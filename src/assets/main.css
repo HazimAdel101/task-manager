@@ -73,3 +73,29 @@ header h1 {
   cursor: pointer;
   font-size: 1em;
 }
+
+.new-task {
+  background: #e7e7e7;
+  padding: 20px 0;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+}
+
+form button {
+  background: #ffd859;
+  padding: 10px;
+  font-family: 'Poppins';
+  border-radius: 6px;
+  color: #555;
+  font-size: 1em;
+}
+
+.task i.active {
+  color: #ff005d;
+}
